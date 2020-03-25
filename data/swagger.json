@@ -7,8 +7,8 @@
   "host": "www.arcgis.com",
   "basePath": "/",
   "schemes": [
-    "http",
-    "https"
+    "https",
+    "http"
   ],
   "consumes": [
     "application/json"
