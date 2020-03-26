@@ -3144,6 +3144,7 @@
         },
         "created": {
           "type": "integer",
+          "format": "int64",
           "description": "The date the folder was created. Shown in UNIX time."
         }
       },
@@ -3224,10 +3225,12 @@
         },
         "created": {
           "type": "integer",
+          "format": "int64",
           "description": "The date the group was created. Shown in UNIX time in milliseconds"
         },
         "modified": {
           "type": "integer",
+          "format": "int64",
           "description": "The date the group was last modified. Shown in UNIX time in milliseconds"
         },
         "access": {
@@ -3302,6 +3305,7 @@
         },
         "received": {
           "type": "integer",
+          "format": "int64",
           "description": "The date the application was received in UNIX time in milliseconds"
         }
       },
@@ -3394,10 +3398,12 @@
         },
         "created": {
           "type": "integer",
+          "format": "int64",
           "description": "The date the folder was created. Shown in UNIX time"
         },
         "modified": {
           "type": "integer",
+          "format": "int64",
           "description": "The date the folder was last modified. Shown in UNIX time"
         },
         "guid": {
@@ -3698,6 +3704,7 @@
         },
         "created": {
           "type": "integer",
+          "format": "int64",
           "description": "The date and time the comment was created. Shown in UNIX time"
         },
         "comment": {
@@ -3777,6 +3784,7 @@
         },
         "created": {
           "type": "integer",
+          "format": "int64",
           "description": "The date and time the comment was created. Shown in UNIX time"
         }
       },
@@ -3820,6 +3828,7 @@
         },
         "received": {
           "type": "integer",
+          "format": "int64",
           "description": "Date the notification was received, in UNIX time in milliseconds"
         },
         "data": {
@@ -4014,6 +4023,7 @@
         },
         "created": {
           "type": "integer",
+          "format": "int64",
           "description": "The date and time the resource was created. Shown in UNIX time"
         }
       },
@@ -4757,10 +4767,12 @@
         },
         "created": {
           "type": "integer",
+          "format": "int64",
           "description": "The date when the app was created (in UNIX time in milliseconds)"
         },
         "modified": {
           "type": "integer",
+          "format": "int64",
           "description": "The date when the app was last modified (in UNIX time in milliseconds)"
         }
       },
@@ -4908,10 +4920,12 @@
         },
         "created": {
           "type": "integer",
+          "format": "int64",
           "description": "The date the user was created. Shown in UNIX time"
         },
         "modified": {
           "type": "integer",
+          "format": "int64",
           "description": "The date the user was last modified. Shown in UNIX time"
         },
         "groups": {
@@ -5009,6 +5023,7 @@
         },
         "received": {
           "type": "integer",
+          "format": "int64",
           "description": "The date received. Shown in UNIX time in milliseconds"
         },
         "role": {
@@ -5022,6 +5037,7 @@
         },
         "expiration": {
           "type": "integer",
+          "format": "int64",
           "description": "Expiration of the invitation. Shown in UNIX time in milliseconds"
         },
         "type": {
@@ -5034,6 +5050,7 @@
         },
         "created": {
           "type": "integer",
+          "format": "int64",
           "description": "The date the invitation was created. Shown in UNIX time in milliseconds"
         },
         "username": {
@@ -5426,6 +5443,7 @@
       "properties": {
         "created": {
           "type": "integer",
+          "format": "int64",
           "description": "The date the user was created. Shown in UNIX time"
         },
         "culture": {
@@ -5442,6 +5460,7 @@
         },
         "modified": {
           "type": "integer",
+          "format": "int64",
           "description": "The date the user was last modified. Shown in UNIX time"
         },
         "provider": {
